@@ -1,0 +1,122 @@
+{
+ "tickets": 1000,
+ "classification_on_manual_gold": {
+  "tuning_set_120": {
+   "n": 120,
+   "category_accuracy_rules": 0.883,
+   "category_accuracy_model": 0.842,
+   "category_accuracy_hybrid": 0.867,
+   "priority_macro_f1": 0.846,
+   "priority_accuracy": 0.883
+  },
+  "holdout_70": {
+   "n": 70,
+   "category_accuracy_rules": 0.786,
+   "category_accuracy_model": 0.871,
+   "category_accuracy_hybrid": 0.857,
+   "priority_macro_f1": 0.869,
+   "priority_accuracy": 0.886
+  }
+ },
+ "draft_type_vs_admin_verdict": {
+  "overall_agreement": 0.496,
+  "n_comparable": 703,
+  "by_template": {
+   "appeal": {
+    "n": 87,
+    "agree": 0.402
+   },
+   "appeal_extra": {
+    "n": 65,
+    "agree": 0.492
+   },
+   "approve": {
+    "n": 319,
+    "agree": 0.592
+   },
+   "duplicate": {
+    "n": 3,
+    "agree": 0.0
+   },
+   "invalid_empty": {
+    "n": 40,
+    "agree": 0.225
+   },
+   "invalid_not_complaint": {
+    "n": 21,
+    "agree": 0.143
+   },
+   "invalid_toxic": {
+    "n": 5,
+    "agree": 0.8
+   },
+   "need_video": {
+    "n": 163,
+    "agree": 0.472
+   }
+  }
+ },
+ "citations": {
+  "total": 1032,
+  "existing_in_rules_json": 1032,
+  "share_valid": 1.0,
+  "drafts_without_citation_in_rule_categories": 33
+ },
+ "needs_human_share": 0.772,
+ "needs_human_by_kind": {
+  "complaint": 0.771,
+  "report": 0.776
+ },
+ "auto_answer_share": 0.228,
+ "spam_or_duplicate_share": 0.032,
+ "draft_lang": {
+  "ru": 864,
+  "uz": 129,
+  "kk": 7
+ },
+ "categories": {
+  "complaint.insult": 277,
+  "complaint.dm": 178,
+  "complaint.admin": 156,
+  "complaint.other": 87,
+  "report.offtopic": 85,
+  "complaint.invalid": 61,
+  "report.question": 41,
+  "complaint.cheat": 33,
+  "report.complaint": 33,
+  "report.help": 24,
+  "complaint.scam": 23,
+  "complaint.rmt_ads": 2
+ },
+ "priorities": {
+  "p0": 1,
+  "p1": 217,
+  "p2": 595,
+  "p3": 187
+ },
+ "templates": {
+  "approve": 319,
+  "need_video": 163,
+  "complaint_review": 110,
+  "appeal": 87,
+  "help_admin": 70,
+  "appeal_extra": 65,
+  "invalid_empty": 40,
+  "report_complaint": 33,
+  "question_forward": 30,
+  "spam": 29,
+  "invalid_not_complaint": 21,
+  "kb_answer": 11,
+  "invalid_toxic": 5,
+  "no_teleport": 5,
+  "help_vehicle": 5,
+  "admin_misconduct": 4,
+  "duplicate": 3
+ },
+ "latency_ms": {
+  "p50": 1.9,
+  "p95": 4.6,
+  "max": 13.7
+ },
+ "cost_per_ticket_usd": 0.0
+}

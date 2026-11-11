@@ -1,0 +1,8 @@
+{
+ "n": 120,
+ "category_accuracy_rules": 0.883,
+ "category_accuracy_model": 0.842,
+ "category_accuracy_hybrid": 0.867,
+ "priority_macro_f1": 0.846,
+ "priority_accuracy": 0.883
+}
